@@ -55,4 +55,5 @@ https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/
         git init
         git add .
         git commit -m "Capitulo 2 de 70. Instalación y configuración del proyecto"
-        git push origin main
+        git branch -M main
+        git push -u origin main
