@@ -103,4 +103,4 @@ Crear una rama en Github por cada lección del proyecto
     Añadir a git
         git add .
         git commit -m "Capitulo Capitulo 4 de 70. Creación y configuración de un repositorio de Git para nuestro proyecto en Laravel 5.3"
-        git push -u origin main
+        git push -u origin capitulo4
