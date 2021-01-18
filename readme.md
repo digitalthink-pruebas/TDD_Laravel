@@ -93,3 +93,14 @@ https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/
         git add .
         git commit -m "Capitulo 3 de 70. Configuración para el entorno de pruebas automatizadas (PHPUnit)"
         git push -u origin main
+
+## Capitulo 4 de 70. Creación y configuración de un repositorio de Git para nuestro proyecto en Laravel 5.3
+-----------------------------------------------------------------------------------------------------------
+Crear una rama en Github por cada lección del proyecto
+
+    git checkout -b capitulo4
+
+    Añadir a git
+        git add .
+        git commit -m "Capitulo Capitulo 4 de 70. Creación y configuración de un repositorio de Git para nuestro proyecto en Laravel 5.3"
+        git push -u origin capitulo4
