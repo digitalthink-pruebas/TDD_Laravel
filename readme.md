@@ -1,7 +1,7 @@
 #Curso: crea una aplicación con Laravel
 https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/
 
-[ ![Codeship Status for digitalthink-pruebas/foro](https://app.codeship.com/projects/724050e0-92f7-40aa-92a0-326e63e4bf24/status?branch=master)](https://app.codeship.com/projects/424201)
+[ ![Codeship Status for digitalthink-pruebas/foro](https://app.codeship.com/projects/724050e0-92f7-40aa-92a0-326e63e4bf24/status?branch=main)](https://app.codeship.com/projects/424201)
 
 ## Capitulo 2 de 70. Instalación y configuración del proyecto
 -------------------------------------------------------------
