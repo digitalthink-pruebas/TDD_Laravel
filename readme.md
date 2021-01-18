@@ -96,11 +96,33 @@ https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/
 
 ## Capitulo 4 de 70. Creación y configuración de un repositorio de Git para nuestro proyecto en Laravel 5.3
 -----------------------------------------------------------------------------------------------------------
-Crear una rama en Github por cada lección del proyecto
+        Crear una rama en Github por cada lección del proyecto
+        
+            git checkout -b capitulo4
+        
+            Añadir a git
+                git add .
+                git commit -m "Capitulo Capitulo 4 de 70. Creación y configuración de un repositorio de Git para nuestro proyecto en Laravel 5.3"
+                git push -u origin capitulo4
 
-    git checkout -b capitulo4
+## Capitulo 5 de 70. Integración continua con Codeship y GitHub en un proyecto de Laravel 5.3
+---------------------------------------------------------------------------------------------
+        Creación de cuenta en Codeship (codeship.com)
 
-    Añadir a git
-        git add .
-        git commit -m "Capitulo Capitulo 4 de 70. Creación y configuración de un repositorio de Git para nuestro proyecto en Laravel 5.3"
-        git push -u origin capitulo4
+        ### Comandos para construir el proyecto en Codeship
+        phpenv local 7.0
+        mysql -e 'create database foro_tests;'
+        composer install --prefer-dist --no-interaction
+        cp .env.codeship .env
+        php artisan migrate --force
+
+        ### Comando para ejecutar las pruebas
+        vendor/bin/phpunit
+
+        Crear archivo .env.codeship
+
+        Añadir a git
+           git add .
+           git commit -m "Integración continua con Codeship y GitHub en un proyecto de Laravel 5.3"
+           git push -u origin main
+
