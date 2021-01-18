@@ -1,6 +1,8 @@
 #Curso: crea una aplicación con Laravel
 https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/
 
+[ ![Codeship Status for digitalthink-pruebas/foro](https://app.codeship.com/projects/724050e0-92f7-40aa-92a0-326e63e4bf24/status?branch=master)](https://app.codeship.com/projects/424201)
+
 ## Capitulo 2 de 70. Instalación y configuración del proyecto
 -------------------------------------------------------------
     composer create-project laravel/laravel foro "5.3.*"
@@ -125,4 +127,8 @@ https://styde.net/curso-crea-una-aplicacion-con-laravel-5-3/
            git add .
            git commit -m "Integración continua con Codeship y GitHub en un proyecto de Laravel 5.3"
            git push -u origin main
+
+## Capitulo 6 de 70. Recibe notificaciones de eventos de Github y Codeship en un canal de Slack
+-----------------------------------------------------------------------------------------------
+Nada que subir
 
